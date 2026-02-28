@@ -1,1 +1,0 @@
-# ec2_lanuch_for_terraform
