@@ -9,6 +9,37 @@ Simple Python script to create/delete EC2 instances with automatic Terraform ins
 - **Auto-loads credentials** from `.env` file
 - **User data script** installs Terraform on first boot
 
+## Getting Started
+
+1. **Create a project folder:**
+   ```bash
+   mkdir ec2_project
+   cd ec2_project
+   ```
+
+2. **Create a virtual environment:**
+   ```bash
+   # On Windows
+   python -m venv .venv
+   
+   # On Linux/Mac
+   python3 -m venv .venv
+   ```
+
+3. **Activate the virtual environment:**
+   ```bash
+   # On Windows (PowerShell)
+   .venv\Scripts\Activate.ps1
+   
+   # On Windows (Command Prompt)
+   .venv\Scripts\activate.bat
+   
+   # On Linux/Mac
+   source .venv/bin/activate
+   ```
+
+4. **Copy the ec2_lanuch folder** into your project directory
+
 ## Setup
 
 1. **Install dependencies:**
